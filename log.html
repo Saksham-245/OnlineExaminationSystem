@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+   log.html
+   
+   Copyright 2020 Saksham Mathur <saksham.mathur25@gmail.com>
+   
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+   
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+   
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+   MA 02110-1301, USA.
+   
+   
+-->
+
+<head>
+<meta charset="utf-8" />
+<title>Log In</title>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
+<meta name="generator" content="Geany 1.32" />
+</head>
+
+<body>
+	<!--header-->
+	<div class="header">
+		<nav class="navbar">
+			<a class="navbar-brand">Online Examination System</a>
+			<ul class="nav">
+				<li class="nav-item">
+					<a class="nav-link" id="links" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" id="links" href="log.html">Log In</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="links" href="signup.html">Sign Up</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="links" href="about.html">About</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	
+	<div class="section">
+		<div class="container">
+			<h1 id="title">Login</h1>
+			<form id="form">
+				<div class="form-group row">
+					<label for="email" class="col-sm-2 col-form-label" id="label">Email:</label>
+					<div class="col-sm-10">
+						<input type="email" placeholder="Please enter an email address" class="form-control" id="email" name="email address"required>
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="password" class="col-sm-2 col-form-label" id="label">Password:</label>
+					<div class="col-sm-10">
+						<input type="password" placeholder="Please enter your password" id="email" class="form-control" minlength="6" name="password" required>
+					</div>
+				</div>
+				<button type="submit" id="btn" class="btn btn-rounded btn-success">Log In</button>
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>
